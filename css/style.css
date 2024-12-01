@@ -1,0 +1,237 @@
+/* 스타일 파일 (style.css) */
+
+/* 폰트 선언 영역 */
+@font-face {
+  font-family: "Aggro_B";
+  src: url("../fonts/SB_Aggro_B.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Aggro_L";
+  src: url("../fonts/SB_Aggro_B.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Aggro_M";
+  src: url("../fonts/SB_Aggro_M.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard_Bold";
+  src: url("../fonts/Pretendard_Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard_SemiBold";
+  src: url("../fonts/Pretendard_SemiBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard_Medium";
+  src: url("../fonts/Pretendard_Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard_Regular";
+  src: url("../fonts/Pretendard_Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pretendard_Light";
+  src: url("../fonts/Pretendard_Light.otf") format("truetype");
+}
+
+/* 기본 스타일 */
+body {
+  background-image: url("../img/BackGround_0.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* 메뉴바 스타일 */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 22px;
+  left: 102px;
+}
+
+.menu-items {
+  margin-left: 559px;
+  display: flex;
+  gap: 209px;
+}
+
+.menu-item {
+  font-family: "Aggro_M";
+  font-size: 20px;
+  color: #d9d9d9;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu-item:hover {
+  font-family: "Aggro_M";
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/*======>index.html 스타일<======*/
+.main-image {
+  position: absolute;
+  top: 310px;
+  left: 43px;
+}
+
+.main-text {
+  position: absolute;
+  top: 425px;
+  left: 162px;
+  font-family: "Aggro_M";
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.sub-text {
+  position: absolute;
+  top: 638px;
+  left: 162px;
+  font-family: "Pretendard_Regular";
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.enroll-button {
+  position: absolute;
+  top: 707px;
+  left: 162px;
+  width: 303px;
+  height: 70px;
+  background-color: #de1c29;
+  border: none;
+  border-radius: 10px;
+  font-family: "Pretendard_Bold";
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+  background-color: #b01521;
+}
+
+.bottom-right-image {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 808px;
+  height: 688px;
+}
+
+/* 오버레이 이미지 영역 */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.centered-overlay-image {
+  width: 400px;
+  height: auto;
+}
+
+/*======>Tools.html 스타일<======*/
+.bottom-left-image {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 682px;
+  height: auto;
+}
+
+.test-aim-text {
+  position: absolute;
+  top: 412px;
+  right: 370px;
+  font-family: "Aggro_B";
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.test-range-button {
+  position: absolute;
+  top: 476px;
+  font-family: "Pretendard_Bold";
+  left: 1120px;
+}
+
+.enroll-button2 {
+  position: absolute;
+  width: 303px;
+  height: 70px;
+  background-color: #de1c29;
+  border: none;
+  border-radius: 10px;
+  font-family: "Pretendard_Bold";
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.test-psa-text {
+  position: absolute;
+  top: 658px;
+  right: 370px;
+  font-family: "Aggro_B";
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.enroll-button3 {
+  position: absolute;
+  width: 303px;
+  height: 70px;
+  background-color: #de1c29;
+  border: none;
+  border-radius: 10px;
+  font-family: "Pretendard_Bold";
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.test-range-button2 {
+  position: absolute;
+  top: 722px;
+  font-family: "Pretendard_Bold";
+  left: 1120px;
+}
