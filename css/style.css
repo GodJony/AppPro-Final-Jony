@@ -514,3 +514,13 @@ body.about {
 .info-text-container p {
   margin: 10px 0;
 }
+
+/*method*/
+.psa_Text
+{
+  position: absolute;
+  color: #ddd;
+  left: 162px;
+  font-family: "Pretendard_Light";
+  font-size: 20px;
+}
