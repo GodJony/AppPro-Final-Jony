@@ -41,7 +41,7 @@
 }
 
 /* 기본 스타일 */
-body {
+body.index {
   background-image: url("../img/BackGround_0.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -51,6 +51,35 @@ body {
   width: 100vw;
 }
 
+body.commu {
+  background-image: url("../img/BackGround_1.png");
+  background-size: auto; /* 원본 크기 유지 */
+  background-repeat: no-repeat;
+  background-position: top left; /* 좌측 상단 배치 */
+  margin: 0;
+  height: 2403px; /* 이미지의 원본 높이 */
+  width: 1920px; /* 이미지의 원본 너비 */
+}
+
+body.hall {
+  background-image: url("../img/BackGround_2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body.about {
+  background-image: url("../img/BackGround_3.png");
+  background-size: auto; /* 이미지의 원본 크기를 유지 */
+  background-repeat: no-repeat;
+  background-position: top left; /* 좌측 상단에서 시작 */
+  margin: 0;
+  height: 4262px; /* 이미지의 원본 높이 */
+  width: 1920px; /* 이미지의 원본 너비 */
+}
 /* 메뉴바 스타일 */
 .navbar {
   position: absolute;
@@ -308,3 +337,180 @@ body {
   font-family: "Pretendard_Bold";
 }
 
+/*======>Halls.html 스타일<======*/
+.logo_hall_2 {
+  position: absolute;
+  top: 180px;
+  left: 895px;
+  width: 129px;
+  height: 136px;
+}
+
+.text-hall-flame {
+  position: absolute;
+  top: 340px;
+  left: 820px;
+  font-family: "Aggro_B";
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.text-hall-kr {
+  position: absolute;
+  top: 396px;
+  left: 914px;
+  font-family: "Pretendard_Medium";
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/*======>Halls.html 박스 부분<======*/
+.user_name_title {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Pretendard_Bold";
+  margin-left: 323px;
+  margin-top: 481px;
+  margin-bottom: 14px;
+}
+
+.user_box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-left: 323px;
+}
+
+.user_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_box {
+  width: 140px;
+  height: 140px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.user_box-text1 {
+  font-family: "Pretendard_Regular";
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.user_box-text2 {
+  font-family: "Pretendard_Regular";
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*About Us Html 스타일*/
+.logo2_about {
+  position: absolute;
+  top: 320px;
+  left: 816px;
+  width: 280px;
+  height: 296px;
+}
+
+.about-text {
+  position: absolute;
+  top: 640px;
+  left: 728px;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "Aggro_M";
+}
+
+.discord {
+  position: absolute;
+  top: 830px;
+  left: 892px;
+  width: 102px;
+  height: 94.78px;
+}
+
+.about-text2 {
+  position: absolute;
+  top: 940px;
+  left: 799px;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "Pretendard_Bold";
+}
+
+.discordLink {
+  position: absolute;
+  top: 996px;
+  left: 758px;
+  font-size: 30px;
+  color: #777;
+  font-family: "Pretendard_Medium";
+}
+
+.title2 {
+  position: absolute;
+  top: 1272px;
+  left: 876px;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.title-main2 {
+  font-size: 40px;
+  font-family: "Pretendard_Bold";
+  color: #fff;
+}
+
+.title-sub2 {
+  font-size: 20px;
+  font-family: "Pretendard_Regular";
+  color: #fff;
+}
+
+.principle-box {
+  position: absolute;
+  top: 1360px;
+  left: 810px;
+  width: 300px;
+  height: 300px;
+}
+
+.principle_name {
+  position: absolute;
+  color: #fff;
+  top: 1692px;
+  left: 925px;
+  font-size: 40px;
+  font-family: "Pretendard_Bold";
+}
+
+.principle_mail {
+  position: absolute;
+  color: #ddd;
+  top: 1756px;
+  left: 807px;
+  font-size: 30px;
+  font-family: "Pretendard_Light";
+}
+
+.info-text-container {
+  position: absolute;
+  top: 1780px;
+  left: 460px;
+  text-align: center;
+  font-family: "Pretendard_Light";
+  font-size: 30px;
+  line-height: 1.6;
+  margin: 50px 20px;
+  color: #ffffff;
+}
+
+.info-text-container p {
+  margin: 10px 0;
+}
