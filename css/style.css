@@ -516,11 +516,58 @@ body.about {
 }
 
 /*method*/
-.psa_Text
-{
+.psa_Text {
   position: absolute;
   color: #ddd;
   left: 162px;
   font-family: "Pretendard_Light";
   font-size: 20px;
+}
+
+.psa_Text p {
+  margin-top: 28px;
+}
+
+.psa_Text2 {
+  position: absolute;
+  top: 420px;
+  left: 1132px;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Pretandard_Bold";
+}
+
+.input-container {
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 460px;
+  left: 1132px;
+  font-size: 24px;
+  font-family: "Pretandard_Bold";
+  color: #fff;
+}
+
+.input-container label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="number"] {
+  width: 303px;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Pretendard_Regular";
+  border: 3px solid #de1c29;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border: 6px solid #de1c29;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
