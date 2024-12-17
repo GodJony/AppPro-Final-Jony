@@ -208,9 +208,9 @@ body.about {
 .test-aim-text {
   position: absolute;
   top: 412px;
-  right: 370px;
-  font-family: "Aggro_B";
-  font-size: 35px;
+  left: 1120px;
+  font-family: "Aggro_M";
+  font-size: 40px;
   color: #ffffff;
 }
 
@@ -238,9 +238,9 @@ body.about {
 .test-psa-text {
   position: absolute;
   top: 658px;
-  right: 370px;
-  font-family: "Aggro_B";
-  font-size: 35px;
+  left: 1120px;
+  font-family: "Aggro_M";
+  font-size: 40px;
   color: #ffffff;
 }
 
@@ -271,7 +271,7 @@ body.about {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  /* JS에서 백그라운드 이미지 적용 예정 */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -317,11 +317,12 @@ body.about {
   z-index: 1001;
 }
 
+/* 점수, 시간, ACS 표시 */
 .score-display {
   position: fixed;
-  top: 20px;
-  left: 20px;
-  font-size: 24px;
+  top: 52px;
+  left: 595px;
+  font-size: 32px;
   color: #ffffff;
   z-index: 1002;
   font-family: "Pretendard_Bold";
@@ -329,9 +330,20 @@ body.about {
 
 .timer-display {
   position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 24px;
+  top: 52px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  color: #ffffff;
+  z-index: 1002;
+  font-family: "Pretendard_Bold";
+}
+
+.acs-display {
+  position: fixed;
+  top: 52px;
+  left: 1176px;
+  font-size: 32px;
   color: #ffffff;
   z-index: 1002;
   font-family: "Pretendard_Bold";
@@ -364,7 +376,6 @@ body.about {
   font-size: 20px;
 }
 
-/*======>Halls.html 박스 부분<======*/
 .user_name_title {
   color: #ffffff;
   font-size: 20px;
@@ -570,4 +581,56 @@ input[type="number"] {
 input[type="number"]:focus {
   border: 6px solid #de1c29;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/*Communuity 스타일*/
+/* 카테고리 박스 스타일 */
+.category-box {
+  position: absolute;
+  top: 220px;
+  left: 162px;
+  width: 303px;
+  height: 554px;
+  background-color: #202020;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 21px 24px;
+  box-sizing: border-box;
+}
+
+.category-text1 {
+  font-family: "Pretendard_Bold";
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 19px;
+}
+
+.category-text2 {
+  font-family: "Pretendard_Bold";
+  font-size: 18px;
+  color: #de1c29;
+  margin-bottom: 19px;
+}
+
+.category-text3 {
+  font-family: "Pretendard_Medium";
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 19px;
+}
+
+/* 검색 박스 스타일 */
+.search-box {
+  position: absolute;
+  top: 220px;
+  left: 485px;
+  width: 1273px;
+  height: 50px;
+  background-color: #202020;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  box-sizing: border-box;
 }
