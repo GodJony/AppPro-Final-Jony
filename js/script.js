@@ -1,4 +1,11 @@
 $(document).ready(function () {
+  $(".enroll-button").on("click", function () {
+    $("#overlay").show();
+  });
+
+  $("#overlay").on("click", function () {
+    $(this).hide();
+  });
   let totalClicks = 0;
   let correctClicks = 0;
 
